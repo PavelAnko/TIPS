@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+}
+
+.box{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+
+.contact{
+    font-size: 17px;
+    width: 80px;
+    font-weight: 400;
+    color: rgb(162, 156, 156);
+    font-family: 'dinneuzeitgroteskltw01-_812426', sans-serif;
+    cursor: pointer;
+    transition: all .4s;   /*РОБИТЬ ПЛАВНІСТЬ ПРИ НАВЕДЕННІ Й ОДВЕДЕННІ*/
+}
+
+.contact:hover{
+    color: #fff;
+}
